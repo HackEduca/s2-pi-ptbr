@@ -11,12 +11,12 @@ pth = '/home/' + user[0]
 # call(["wget", "-P", pth, "https://raw.githubusercontent.com/HackEduca/s2-pi/master/s2_pi/s2_pi.js"])
 
 setup(
-    name='s2-pi_ptbr',
+    name='s2-pi-ptbr',
     version='2.0',
-    packages=['s2_pi_ptbr'],
+    packages=['s2_pi-ptbr'],
 
     entry_points={
-            'console_scripts': ['s2pi-ptbr = s2_pi_ptbr.s2_pi:run_server',
+            'console_scripts': ['s2pi-ptbr = s2_pi-ptbr.s2_pi:run_server',
                                 'sbx_to_sb2 = s2_pi.sbx_to_sb2:sbx_to_sb2'],
         },
     url='https://github.com/HackEduca/s2-pi',
