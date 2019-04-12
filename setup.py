@@ -16,7 +16,7 @@ setup(
     packages=['s2_pi-ptbr'],
 
     entry_points={
-            'console_scripts': ['s2pi_ptbr = s2_pi-ptbr.s2_pi:run_server',
+            'console_scripts': ['s2pi_ptbr = s2_pi_ptbr.s2_pi:run_server',
                                 'sbx_to_sb2 = s2_pi.sbx_to_sb2:sbx_to_sb2'],
         },
     url='https://github.com/HackEduca/s2-pi',
