@@ -2,8 +2,8 @@ from setuptools import setup
 import os
 from subprocess import call
 
-call(["pip3", "install", "git+https://github.com/dpallot/simple-websocket-server.git"])
-call(["pip3", "install", "git+https://github.com/giampaolo/psutil.git"])
+#call(["pip3", "install", "git+https://github.com/dpallot/simple-websocket-server.git"])
+#call(["pip3", "install", "git+https://github.com/giampaolo/psutil.git"])
 
 user = os.listdir("/home")
 pth = '/home/' + user[0]
@@ -13,7 +13,7 @@ pth = '/home/' + user[0]
 setup(
     name='s2-piptbr',
     version='1.21',
-    packages=['s2_piptbr'],
+    packages=['s2_pi'],
 
     entry_points={
             'console_scripts': ['s2piptbr = s2_pi.s2_pi:run_server',
