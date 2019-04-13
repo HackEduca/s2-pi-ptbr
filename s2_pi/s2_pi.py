@@ -28,7 +28,7 @@ from SimpleWebSocketServer import SimpleWebSocketServer, WebSocket
 # This class inherits from WebSocket.
 # It receives messages from the Scratch and reports back for any digital input
 # changes.
-class S2Pi(WebSocket):
+class S2Piptbr(WebSocket):
  
     def handleMessage(self):
         # get command from Scratch2
@@ -148,7 +148,7 @@ def run_server():
     #print ("hello")
     #print (dir)    
     #print (os.system ( os.path.abspath(__file__)))
-    server = SimpleWebSocketServer('', 9000, S2Pi)
+    server = SimpleWebSocketServer('', 9000, S2Piptbr)
     server.serveforever()
 
 
