@@ -148,7 +148,7 @@ def run_server():
     #print ("hello")
     #print (dir)    
     #print (os.system ( os.path.abspath(__file__)))
-    server = SimpleWebSocketServer('', 9000, S2Pi)
+    server = SimpleWebSocketServer('', 9000, S2Piptbr)
     server.serveforever()
 
 
